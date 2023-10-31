@@ -6,7 +6,8 @@ import './i18n/index'
 import { ThemeProvider } from 'theme-ui'
 import theme from './theme'
 import 'focus-visible/dist/focus-visible'
-import './styles/styles.scss'
+// import "./styles.scss"
+import './styles/styles.css'
 import { EditorProvider } from './uibox'
 
 ReactDOM.render(

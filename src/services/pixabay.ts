@@ -4,7 +4,7 @@ const pixabayClient = axios.create({
   baseURL: 'https://pixabay.com/api/',
 })
 
-const PIXABAY_KEY = process.env.REACT_APP_PIXABAY_KEY
+const PIXABAY_KEY = "29364504-a2d04c7e6158e546dedbd3568"
 
 export interface PixabayImage {
   id: string

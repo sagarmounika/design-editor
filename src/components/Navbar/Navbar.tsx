@@ -29,7 +29,9 @@ function Navbar() {
       left: 0,
       height: canvas.height,
       width: canvas.width,
+       
     });
+    console.log(data,"data")
     // const data= canvas?.toDataURL("image/png");
     if (data) {
       const a = document.createElement('a')

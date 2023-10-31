@@ -5,7 +5,7 @@ export function loadFabricImageFromURL(src) {
   return new Promise(resolve => {
     fabric.Image.fromURL(src, function (img) {
       resolve(img)
-    })
+    }, {crossOrigin: 'anonymous'})
   })
 }
 

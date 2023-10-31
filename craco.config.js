@@ -18,4 +18,7 @@ module.exports = {
       '@handlers': resloveSrc('handlers'),
     },
   },
+  eslint: {
+    enable: false,
+  }
 }
